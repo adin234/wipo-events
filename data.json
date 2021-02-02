@@ -1,0 +1,62 @@
+[
+  {
+    "id": 101,
+    "company": "World Intellectual Property Organization - WIPO",
+    "email": "web.communications@wipo.int",
+    "title": "World Intellectual Property Day – April 26, 2021",
+    "description": "IP and SMEs: Taking your ideas to market",
+    "date": "2021-04-26",
+    "time": "09:00",
+    "language_code_1": "EN",
+    "language_code_2": "FR",
+    "country_code": "CH",
+    "link": "https://www.wipo.int/portal/en/index.html",
+    "language_1": "English",
+    "language_2": "French",
+    "country": "Switzerland"
+  },
+  {
+    "id": 102,
+    "company": "WIPO日本事務所 - JPO",
+    "email": "jpo@wipo.int",
+    "title": "IP and Sports: World IP Day 2021 Celebration",
+    "description": "The WIPO Japan Office holds an event on the relationship between sports, technology and intellectual property from a unique perspective of Japan ahead of the Tokyo Olympics and Paralympic Games in 2020.",
+    "date": "2021-04-26",
+    "time": "10:00",
+    "language_code_1": "JA",
+    "country_code": "JP",
+    "link": "https://goo.gl/1mdbVA",
+    "language_1": "Japanese",
+    "country": "Japan"
+  },
+  {
+    "id": 106,
+    "company": "Houston Intellectual Property Law Association",
+    "email": "ip@hipla.int",
+    "title": "World IP Day Luncheon",
+    "description": "The Houston Intellectual Property Law Association organizes a lancheon to celebrate World IP Day 2019.",
+    "date": "2021-04-11",
+    "time": "12:30",
+    "language_code_1": "EN",
+    "country_code": "US",
+    "link": "https://goo.gl/9FyzxY",
+    "language_1": "English",
+    "country": "United States Of America"
+  },
+  {
+    "id": 107,
+    "company": "Patent Information Center Chemnitz",
+    "email": "ip@hipla.int",
+    "title": "Conference on the New EU Trade Mark Reform and Its Impact on Germany",
+    "description": "The patent information center Chemnitz, in collaboration with the German Patent and Trademark Office and patent information centers in Dresden and Leipzig, organizes a conference on the EU trademark reform and its effects for Germany.",
+    "date": "2021-04-22",
+    "time": "10:30",
+    "language_code_1": "EN",
+    "language_code_2": "DE",
+    "country_code": "DE",
+    "link": "https://goo.gl/uWKuvD",
+    "language_1": "English",
+    "language_2": "German",
+    "country": "Germany"
+  }
+]
