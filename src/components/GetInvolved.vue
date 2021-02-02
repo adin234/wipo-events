@@ -21,8 +21,8 @@
   
   .head {
     font-weight: bold;
-    font-size: 1.7em;
     margin: 0;
+    font-size: 150%;
   }
 
   .submit {
@@ -31,7 +31,6 @@
     color: white;
     border-radius: 5px;
     font-weight: bold;
-    font-size: 1em;
     display: inline-block;
   }
 </style>

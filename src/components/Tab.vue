@@ -20,16 +20,12 @@ export default defineComponent({
     }
   },
   created() {
-    this.$parent.tabs.push(this);
+    console.log('created', this.date)
+    this.$parent.addTab(this);
   },
   data() {
     return {
       isActive: false
-    }
-  },
-  computed:{
-    href() {
-      return '#' + this.name.toLowerCase().replace(/ /g, '-');
     }
   },
   mounted() {

@@ -21,6 +21,17 @@
     margin-top: 60px;
     grid-area: action;
   }
+
+  @media (max-width:767px) {
+    .grid-container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .action {
+      margin-top: 32px;
+    }
+  }
 </style>
 <script lang="ts">
 import Content from './Content.vue'

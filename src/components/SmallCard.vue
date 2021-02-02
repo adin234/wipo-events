@@ -11,7 +11,6 @@
 <style lang="postcss" scoped>
   .title {
     font-weight: bold;
-    font-size: 1.5em;
   }
 </style>
 <script lang="ts">

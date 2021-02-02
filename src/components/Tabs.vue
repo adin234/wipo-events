@@ -3,7 +3,7 @@
     <div class="tabs">
       <perfect-scrollbar class="perfect-scrollbar">
         <ul>
-          <li v-for="tab in tabs" :class="{ 'is-active': tab.isActive }" v-bind:key="tab.name">
+          <li v-for="tab in sort(tabs)" :class="{ 'is-active': tab.isActive }" v-bind:key="tab.name">
             <a href="javascript:void(0)" @click="selectTab(tab)">
               <span class="date">{{ getDate(tab.date) }}</span>
               <span class="day">{{ getDay(tab.date) }}</span>
@@ -22,7 +22,6 @@
   .tabs {
     align-items: stretch;
     display: flex;
-    font-size: 1rem;
     justify-content: space-between;
     overflow: hidden;
     overflow-x: auto;
@@ -38,7 +37,6 @@
     flex-grow: 1;
     flex-shrink: 0;
     margin-top: 0;
-    justify-content: center;
     list-style: none;
   }
 
@@ -104,6 +102,20 @@ export default defineComponent({
     }
   },
   methods: {
+    addTab(tab) {
+      this.tabs.push(tab);
+      if (this.tabs.length === 1) {
+        setTimeout(() => {
+          this.selectTab(this.tabs[0])
+        })
+      }
+    },
+    sort(tabs) {
+      return tabs.sort((a, b) => a.date.localeCompare(b.date))
+    },
+    clearTabs() {
+      this.tabs = []
+    },
     selectTab(selectedTab) {
       this.tabs.forEach((tab) => {
         tab.isActive = tab.date === selectedTab.date

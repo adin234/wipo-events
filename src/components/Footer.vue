@@ -8,11 +8,20 @@
 </template>
 <style lang="postcss" scoped>
   .footer {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px 32px;
+    margin-bottom: 60px;
   }
 
   .footer > * {
     flex: 1
+  }
+
+  @media (max-width:767px) {
+    .footer {
+      grid-template-columns: 1fr;
+    }
   }
 </style>
 <script lang="ts">
