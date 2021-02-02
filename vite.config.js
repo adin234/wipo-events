@@ -5,5 +5,6 @@ module.exports = {
     '/@config': [
       "src/config"
     ]
-  }
+  },
+  base: "/wipo-events/"
 };
